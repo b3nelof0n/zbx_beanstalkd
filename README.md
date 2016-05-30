@@ -4,7 +4,7 @@ Zabbix template for monitoring [Beanstalkd](http://kr.github.io/beanstalkd/) tub
 
 #### Requirements
 
-First of all, you should install `netcat` to work with [Beanstalkd protocol](https://github.com/kr/beanstalkd/blob/master/doc/protocol.txt).
+- `netcat`
 
 #### Installation
 

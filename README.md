@@ -16,7 +16,7 @@ First of all, you should install `netcat` to work with [Beanstalkd protocol](htt
     chown zabbix:zabbix /etc/zabbix/scripts/beanstalkd-processor.sh
     ```
 
-If you use non-standard host/port of Beanstalkd, please specify `BEANSTALK_HOST` and `BEANSTALK_PORT` variables.
+    If you use non-standard host/port of Beanstalkd, please specify `BEANSTALK_HOST` and `BEANSTALK_PORT` variables.
 
 2. Include `beanstalkd.conf` to the Zabbix agent configuration file.
 
@@ -24,7 +24,7 @@ If you use non-standard host/port of Beanstalkd, please specify `BEANSTALK_HOST`
     cp beanstalkd.conf /etc/zabbix/zabbix-agentd.d 
     ```
 
-Ensure, that your `zabbix-agent.conf` contains `Include` directive. Otherwise you have to paste the content to the end of file.
+    Ensure, that your `zabbix-agent.conf` contains `Include` directive. Otherwise you have to paste the content to the end of file.
 
 3. Add cron job from `zabbix` user via `crontab` command:
 

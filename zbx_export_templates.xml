@@ -544,8 +544,8 @@
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{Fun-Box-beanstalkd-extended:beanstalkd.tubes.current_jobs_delayed[{#TUBE_ITEM}].last(#3)}&gt;{$BEANSTALKD_TUBE_MAX_LENGTH}</expression>
-                            <name>Huge amounts of delayed jobs in {#TUBE_ITEM}</name>
+                            <expression>{Fun-Box-beanstalkd-extended:beanstalkd.tubes.current_jobs_ready[{#TUBE_ITEM}].last(#3)}&gt;{$BEANSTALKD_TUBE_MAX_LENGTH}</expression>
+                            <name>Huge amounts of ready jobs in {#TUBE_ITEM}</name>
                             <url/>
                             <status>0</status>
                             <priority>5</priority>

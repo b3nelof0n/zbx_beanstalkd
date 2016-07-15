@@ -1,12 +1,12 @@
-## About
+# About
 
 Zabbix template for monitoring [Beanstalkd](http://kr.github.io/beanstalkd/) tubes.
 
-#### Requirements
+## Requirements
 
 - `netcat`
 
-#### Installation
+## Installation
 
 1. Copy `beanstalkd-processor.sh` to the scripts directory.
 
@@ -40,10 +40,11 @@ Zabbix template for monitoring [Beanstalkd](http://kr.github.io/beanstalkd/) tub
 
 Done. Now you can import `zbx_beanstalkd.xml` file to the Zabbix.
 
-#### Usage
+## Usage
 
 Import `zbx_beanstalkd.xml` to the Zabbix. After awhile you'll see metrics which has been automatically discovered via installed script. 
 
-#### License
+## License
 
 MIT
+

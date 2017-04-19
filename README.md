@@ -37,6 +37,12 @@ Zabbix template for monitoring [Beanstalkd](http://kr.github.io/beanstalkd/) tub
     ```
     */10 * * * * /etc/zabbix/scripts/beanstalkd-processor.sh fetch &>/dev/null
     ```
+4. Restart the Zabbix Agent
+
+    ```
+    /etc/init.d/zabbix-agent restart 
+    ```
+
 
 Done. Now you can import `zbx_beanstalkd.xml` file to the Zabbix.
 
